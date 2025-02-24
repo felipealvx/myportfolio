@@ -1,15 +1,16 @@
-import Header from '../../components/Header'
-import './style.css'
+import App from "../App";
+import Header from "../../components/Header";
+import "./style.css";
+import "../../assets/svgs/bg-header.svg" 
 
 function Home() {
-
   return (
-    <main className='w-full h-screen bg-black-900'>
-      <div className="max-w-screen-xl mx-auto bg-red-50">
-        <Header />
+    <App>
+      <Header />
+      <div className="img w-full h-full">
       </div>
-    </main>
-  )
+    </App>
+  );
 }
 
-export default Home
+export default Home;

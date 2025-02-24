@@ -4,13 +4,6 @@
 }
 
 .header {
-  font-family: 'BlackMustang';
+  font-family: 'jetbrains mono';
 }
-
-.header > ul {
-  display: flex;
-  gap: 10px;
-}
-
-.header > ul > li {}
 

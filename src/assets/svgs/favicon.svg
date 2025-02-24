@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 167 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,-310)">
+        <g id="Prancheta1" transform="matrix(1,0,0,1,0,-0.902576)">
+            <rect x="0" y="310.903" width="166.06" height="166.06" style="fill:none;"/>
+            <g transform="matrix(0.924179,0,0,0.924179,-294.825,301.449)">
+                <path d="M344.781,100.011C344.781,100.011 321.725,99.749 324.77,120.195C327.815,140.641 349.566,138.901 360.441,131.505C360.441,131.505 380.887,148.906 397.853,132.81C397.853,132.81 433.959,150.646 464.846,130.2C464.846,130.2 472.676,140.206 486.161,133.245C499.647,126.285 492.252,101.054 477.026,107.144C477.026,107.144 469.631,84.959 443.53,93.224C443.53,93.224 450.055,60.089 417.429,60.126C384.802,60.162 389.152,81.043 389.152,81.043C389.152,81.043 387.412,61.468 372.187,66.253C356.961,71.038 356.526,80.608 359.136,88.874C359.136,88.874 345.651,86.787 344.781,100.011Z" style="fill:white;"/>
+            </g>
+        </g>
+    </g>
+</svg>
