@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'BlackMustang';
+  src: local('BlackMustang'), url(../../assets/fonts/Black\ Mustang.ttf) format('truetype');
+}
+
+.header {
+  font-family: 'BlackMustang';
+}
+
+.header > ul {
+  display: flex;
+  gap: 10px;
+}
+
+.header > ul > li {}
+
