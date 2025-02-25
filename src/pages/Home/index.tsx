@@ -3,7 +3,9 @@ import Header from "../../components/Header";
 import "./style.css";
 import { ReactNode } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithubSquare, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faAndroid, faFigma, faGit, faGithubSquare, faInstagram, faJs, faLinkedin, faNode, faReact, faSwift } from "@fortawesome/free-brands-svg-icons";
+import { faPenNib } from "@fortawesome/free-solid-svg-icons/faPenNib";
+import { faMobile } from "@fortawesome/free-solid-svg-icons";
 
 type appProps = {
   children?: ReactNode
@@ -20,9 +22,9 @@ function Home() {
   return (
     <App>
       <Header />
-      <main className="flex w-full h-full text-black-100 items-center relative">
+      <main className="flex flex-row w-full h-full text-black-100 items-center justify-between">
         <Section
-          className="w-[50%] text-xl flex flex-col gap-2 absolute top-40"
+          className="w-[50%] text-xl flex flex-col gap-2"
           title="Felipe Alves da Silva"
           subtitle="Desenvolvedor Mobile & Web Front-End"
           text={"Utilizo tecnologias como React Native, React, Node, Swift Typescript, Javascript e curto muito UI-UX."}>
@@ -82,8 +84,16 @@ function LinkSocial({icon, title, className, link}: appProps){
 
 function SkillIcons() {
   return (
-    <div>
-      
+    <div className="__gridContainer text-3xl">
+      <div className="gride"><FontAwesomeIcon icon={faReact} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faFigma} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faNode} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faJs} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faSwift} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faGit} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faPenNib} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faMobile} /></div>
+      <div className="gride"><FontAwesomeIcon icon={faAndroid} /></div>
     </div>
   )
 }
