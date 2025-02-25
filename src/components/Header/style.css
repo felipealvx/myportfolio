@@ -7,3 +7,16 @@
   font-family: 'jetbrains mono';
 }
 
+.link__ {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.link__:hover {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #dddf00;
+  box-shadow: 0px 0px 20px #dddf00;
+  transition: all .5s ease-in-out;
+  color: #2d3142 ;
+}

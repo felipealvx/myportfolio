@@ -1,1 +1,7 @@
-
+.link__social:hover {
+  border-radius: 5px;
+  color: #2d3142;
+  background-color: #f8f9faff;
+  transition: all .5s ease-in-out;
+  box-shadow: 0px 0px 20px #f8f9faff;
+}

@@ -29,9 +29,6 @@ export default {
           '800': '#343a40ff',
           '900': '#2d3142',
         },
-        white: '#f4f1de',
-        gray: '#70798c',
-        grayLight: '#f4f4f6',
       },
     }
   },

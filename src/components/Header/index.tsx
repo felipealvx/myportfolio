@@ -1,10 +1,12 @@
 import { Link } from "react-router";
 import "./style.css";
 import Icon from "../../assets/svgs/icon.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAddressBook, faHome, faListCheck } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
-    <header className="header 
+    <header className={`header 
       flex 
       h-20 
       p-5 
@@ -13,24 +15,24 @@ function Header() {
       rounded-md 
       border-[0.5px] 
       border-green-300 
-      bg-gradient-to-r
+      bg-gradient-to-r 
       from-green-300
-      from-10%
-      ">
+      from-10% 
+      backdrop-blur-sm 
+      `}>
 
       <img src={Icon} alt="Icon" className="h-10" />
-      <ul className="flex items-center gap-10 text-lg text-black-100">
+      <ul className="flex gap-5 items-center text-lg text-black-100 flex-wrap">
         <li>
-          <Link to="/" className="hover:bg-green-950 ease-in-out p-2 ">Início</Link>
+          <Link to="/" className="link__"><FontAwesomeIcon icon={faHome} /> Início</Link>
         </li>
         <li>
-          <Link to="/about">Projetos</Link>
+          <Link to="/about" className="link__"><FontAwesomeIcon icon={faListCheck} /> Projetos</Link>
         </li>
         <li>
-          <Link to="/contacts">Contatos</Link>
+          <Link to="/contacts" className="link__"><FontAwesomeIcon icon={faAddressBook} /> Contatos </Link>
         </li>
       </ul>
-
     </header>
   );
 }
