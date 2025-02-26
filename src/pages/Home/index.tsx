@@ -3,9 +3,7 @@ import Header from "../../components/Header";
 import "./style.css";
 import { ReactNode } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAndroid, faFigma, faGit, faGithubSquare, faInstagram, faJs, faLinkedin, faNode, faReact, faSwift } from "@fortawesome/free-brands-svg-icons";
-import { faPenNib } from "@fortawesome/free-solid-svg-icons/faPenNib";
-import { faMobile } from "@fortawesome/free-solid-svg-icons";
+import { faGithubSquare, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 type appProps = {
   children?: ReactNode
@@ -20,15 +18,15 @@ type appProps = {
 function Home() {
 
   return (
-    <App>
+    <App className="__app">
       <Header />
-      <main className="flex flex-row w-full h-full text-black-100 items-center justify-between">
+      <main className="flex flex-row w-full h-[70%] text-black-100 items-center justify-between">
         <Section
           className="w-[50%] text-xl flex flex-col gap-2"
           title="Felipe Alves da Silva"
           subtitle="Desenvolvedor Mobile & Web Front-End"
           text={"Utilizo tecnologias como React Native, React, Node, Swift Typescript, Javascript e curto muito UI-UX."}>
-            <div className="flex gap-10">
+            <div className="flex flex-wrap gap-10">
               <LinkSocial 
                 title="Github" 
                 icon={<FontAwesomeIcon icon={faGithubSquare} size="2x"/>} 
@@ -46,7 +44,6 @@ function Home() {
               />
             </div>
         </Section>
-        <SkillIcons />
       </main>
     </App>
   );
@@ -58,8 +55,8 @@ function Section({children, title, subtitle, text, className}: appProps) {
     ${className || ""}
     `}>
       <div className="flex flex-col gap-1">
-        <h2 className="text-3xl underline text-green-100">{title}</h2>
-        <p className="text-sm text-black-500">{subtitle}</p>
+        <h2 className="text-3xl underline text-primary-500">{title}</h2>
+        <p className="text-sm text-light-600">{subtitle}</p>
       </div>
       <p>{text}</p>
       {children}
@@ -71,7 +68,7 @@ function LinkSocial({icon, title, className, link}: appProps){
   return (
     <a href={link} className={`
     flex gap-4 items-center
-    text-green-100
+    text-primary-500
     p-2 
     link__social
     ${className || ""}`
@@ -79,22 +76,6 @@ function LinkSocial({icon, title, className, link}: appProps){
       {icon}
       <p className="underline text-sm">{title}</p>
     </a>
-  )
-}
-
-function SkillIcons() {
-  return (
-    <div className="__gridContainer text-3xl">
-      <div className="gride"><FontAwesomeIcon icon={faReact} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faFigma} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faNode} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faJs} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faSwift} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faGit} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faPenNib} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faMobile} /></div>
-      <div className="gride"><FontAwesomeIcon icon={faAndroid} /></div>
-    </div>
   )
 }
 

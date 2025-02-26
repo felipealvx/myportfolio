@@ -13,7 +13,8 @@ function App({children, className}: appProps) {
       overflow-hidden
       w-full
       h-screen  
-      bg-black-900
+      bg-dark-800
+      text-light-50
       ${className || ""}
       `}>
 

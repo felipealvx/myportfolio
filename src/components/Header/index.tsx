@@ -14,9 +14,9 @@ function Header() {
       justify-between
       rounded-md 
       border-[0.5px] 
-      border-green-300 
+      border-primary-500
       bg-gradient-to-r 
-      from-green-300
+      from-primary-500
       from-10% 
       backdrop-blur-sm 
       `}>
