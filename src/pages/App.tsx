@@ -12,7 +12,7 @@ function App({children, className}: appProps) {
     <main className={`
       overflow-hidden
       w-full
-      h-screen  
+      min-h-screen
       bg-dark-800
       text-light-50
       ${className || ""}

@@ -20,13 +20,13 @@ function Home() {
   return (
     <App className="__app">
       <Header />
-      <main className="flex flex-row w-full h-[70%] text-black-100 items-center justify-between">
+      <main className="mainPage flex flex-row w-full h-full text-black-100 items-center justify-between">
         <Section
-          className="w-[50%] text-xl flex flex-col gap-2"
+          className="w-[50%] text-xl flex flex-col gap-6"
           title="Felipe Alves da Silva"
           subtitle="Desenvolvedor Mobile & Web Front-End"
           text={"Utilizo tecnologias como React Native, React, Node, Swift Typescript, Javascript e curto muito UI-UX."}>
-            <div className="flex flex-wrap gap-10">
+            <div className="flex flex-wrap gap-6">
               <LinkSocial 
                 title="Github" 
                 icon={<FontAwesomeIcon icon={faGithubSquare} size="2x"/>} 
@@ -58,7 +58,7 @@ function Section({children, title, subtitle, text, className}: appProps) {
         <h2 className="text-3xl underline text-primary-500">{title}</h2>
         <p className="text-sm text-light-600">{subtitle}</p>
       </div>
-      <p>{text}</p>
+      <p className="w-[80%]">{text}</p>
       {children}
     </section>  
   )
@@ -67,14 +67,11 @@ function Section({children, title, subtitle, text, className}: appProps) {
 function LinkSocial({icon, title, className, link}: appProps){
   return (
     <a href={link} className={`
-    flex gap-4 items-center
-    text-primary-500
-    p-2 
-    link__social
+    flex gap-3 items-center
     ${className || ""}`
     }>
-      {icon}
-      <p className="underline text-sm">{title}</p>
+      <p className="text-primary-500">{icon}</p>
+      <p className="underline text-light-50 text-xl hover:text-primary-300 ease-in-out transition">{title}</p>
     </a>
   )
 }
