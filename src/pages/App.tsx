@@ -10,7 +10,6 @@ function App({children, className}: appProps) {
 
   return (
     <main className={`
-      overflow-hidden
       w-full
       min-h-screen
       bg-dark-800

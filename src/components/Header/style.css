@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'BlackMustang';
-  src: local('BlackMustang'), url(../../assets/fonts/Black\ Mustang.ttf) format('truetype');
-}
 
 .header {
   font-family: 'jetbrains mono';

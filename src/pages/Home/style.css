@@ -1,3 +1,23 @@
 .mainPage {
   height: calc(100vh - 96px);
 }
+
+@media (max-width: 600px) {
+  .__section {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+  }
+  
+  .__containerLinks {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .__link {
+    border: .5px solid #fffcf2;
+    border-radius: 8px;
+    padding: .625rem;
+    color: #252422;
+  }
+}

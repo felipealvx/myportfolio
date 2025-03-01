@@ -1,15 +1,15 @@
 import App from "../App";
 import Header from "../../components/Header";
 
-function Contacts() {
+function About() {
   return (
     <App>
       <Header />
-      <main>
-        <p>Contacts</p>
-      </main>
+      <div>
+        
+      </div>
     </App>
   );
 }
 
-export default Contacts;
+export default About;

@@ -3,10 +3,12 @@ import "./style.css";
 import Icon from "../../assets/imgs/icon.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook, faHome, faListCheck } from "@fortawesome/free-solid-svg-icons";
+import "../styles/header.css"
 
 function Header() {
   return (
-    <header className={` 
+    <header className={`
+      __header 
       flex 
       w-full
       h-20 
@@ -26,10 +28,10 @@ function Header() {
           <Link to="/" className="hover:text-primary-300 transition-all ease-in-out"><FontAwesomeIcon icon={faHome} /> Início</Link>
         </li>
         <li>
-          <Link to="/about" className="hover:text-primary-300 transition-all ease-in-out"><FontAwesomeIcon icon={faListCheck} /> Projetos</Link>
+          <Link to="/projects" className="hover:text-primary-300 transition-all ease-in-out"><FontAwesomeIcon icon={faListCheck} /> Projetos</Link>
         </li>
         <li>
-          <Link to="/contacts" className="hover:text-primary-300 transition-all ease-in-out"><FontAwesomeIcon icon={faAddressBook} /> Contatos </Link>
+          <Link to="/about" className="hover:text-primary-300 transition-all ease-in-out"><FontAwesomeIcon icon={faAddressBook} /> Sobre </Link>
         </li>
       </ul>
     </header>

@@ -6,3 +6,7 @@
   font-family: 'BlackMustang';
   src: local('BlackMustang'), url(../../assets/fonts/Black\ Mustang.ttf) format('truetype');
 }
+
+body {
+  background-color: #252422;
+}

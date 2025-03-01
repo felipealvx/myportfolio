@@ -1,0 +1,8 @@
+@media (max-width: 600px) {
+  .__skill {
+    font-size: 20px;
+  }
+  .__titleSkill {
+    font-size: 8px;
+  }
+}
