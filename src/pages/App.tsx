@@ -10,9 +10,10 @@ function App({children, className}: appProps) {
 
   return (
     <main className={`
+      __appMain
       w-full
       min-h-screen
-      bg-dark-800
+      bg-dark-900
       text-light-50
       ${className || ""}
       `}>

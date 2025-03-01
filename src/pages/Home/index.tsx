@@ -22,19 +22,19 @@ function Home() {
                 title="Github" 
                 icon={<FontAwesomeIcon icon={faGithubSquare} size="2x"/>} 
                 link="https://github.com/felipealvx"
-                className="__link"
+                className="__link backdrop-blur-sm border-[1px] border-light-50 rounded-md p-2"
               />
               <LinkSocial 
                 title="LinkedIn" 
                 icon={<FontAwesomeIcon icon={faLinkedin} size="2x"/>} 
                 link="https://www.linkedin.com/in/felipealvx/"
-                className="__link"
+                className="__link backdrop-blur-sm border-[1px] border-light-50 rounded-md p-2"
               />
               <LinkSocial  
                 title="Instagram" 
                 icon={<FontAwesomeIcon icon={faInstagramSquare} size="2x"/>} 
                 link="https://www.instagram.com/ofelipalves/"
-                className="__link"
+                className="__link backdrop-blur-sm border-[1px] border-light-50 rounded-md p-2"
               />
             </div>
         </Section>

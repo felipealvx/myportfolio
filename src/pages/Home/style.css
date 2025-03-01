@@ -1,3 +1,5 @@
+
+
 .mainPage {
   height: calc(100vh - 96px);
 }
@@ -8,7 +10,7 @@
     display: flex;
     gap: 16px;
   }
-  
+
   .__containerLinks {
     display: flex;
     flex-direction: column;
