@@ -7,7 +7,7 @@ export default function LinkSocial({icon, title, className, link}: LinkSocialPro
     ${className || ""}`
     }>
       <p className="text-primary-500">{icon}</p>
-      <p className="underline text-light-50 hover:text-primary-300 ease-in-out transition">{title}</p>
+      <p className="underline hover:text-primary-300 ease-in-out transition">{title}</p>
     </a>
   )
 }
