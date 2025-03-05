@@ -1,7 +1,4 @@
 @media (max-width: 520px) {
-  .__containerProjects {
-
-  }
   .__projects {
     display: flex;
     justify-content: center;

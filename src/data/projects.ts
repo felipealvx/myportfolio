@@ -7,22 +7,22 @@ export const projects = [
     description: "Projeto para utilizar a API de Pokémon, PokeAPI, fazendo um projeto prático usando React Native.",
     img: Img1,
     link: "https://github.com/",
-    stacks: ["React", "Node", "Tailwind"]
+    stacks: ["React Native", "Expo", "TypeScript"]
   },
   {
     id: 2,
-    title: "WeatherApp",
-    description: "Aplicativo para visualizar previsão do tempo usando uma API externa.",
+    title: "QR-CodeGen",
+    description: "Gerador de QR code utilizando React Native com a biblioteca React-Native-QRCode-Svg ",
     img: Img1,
     link: "https://github.com/",
-    stacks: ["React Native", "TypeScript", "Expo"]
+    stacks: ["React Native", "Javascript", "Expo"]
   },
   {
     id: 3,
-    title: "Task Manager",
-    description: "Gerenciador de tarefas com autenticação e armazenamento em banco de dados.",
+    title: "Pets Native",
+    description: "App para cadastrar seus pets e adicionar lembretes das vacinas e gerenciamento/cuidado do seu pet.",
     img: Img1,
     link: "https://github.com/",
-    stacks: ["Next.js", "Prisma", "PostgreSQL"]
+    stacks: ["SwiftUI", "React Native", "Typescript"]
   }
 ]

@@ -2,7 +2,7 @@ import App from "../App";
 import Header from "../../components/Header";
 import LinkSocial from "../../components/UI/LinkSocial";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDeviantart, faDribbbleSquare, faFigma, faGit, faGithubSquare, faInstagramSquare, faJsSquare, faLinkedin, faLinux, faNodeJs, faReact, faSwift } from "@fortawesome/free-brands-svg-icons";
+import { faArtstation, faDeviantart, faDribbbleSquare, faFigma, faGit, faGithubSquare, faInstagramSquare, faJsSquare, faLinkedin, faLinux, faNodeJs, faReact, faSwift } from "@fortawesome/free-brands-svg-icons";
 import Skill from "../../components/UI/Skill";
 import { faSquarePen } from "@fortawesome/free-solid-svg-icons";
 import Gif from "../../assets/gifs/boy.gif";
@@ -100,6 +100,12 @@ function Contacts() {
               title="DeviantArt"
               link="https://www.deviantart.com/felipealvx"
               icon={<FontAwesomeIcon icon={faDeviantart} size="2x"/>}
+              className="__link p-2 border rounded-md border-light-400"
+            />
+            <LinkSocial 
+              title="Artstation"
+              link="https://www.deviantart.com/felipealvx"
+              icon={<FontAwesomeIcon icon={faArtstation} size="2x"/>}
               className="__link p-2 border rounded-md border-light-400"
             />
           </div>
