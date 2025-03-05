@@ -1,6 +1,7 @@
 body {
   font-family: 'jetbrains mono';
 }
- .__appMain {
+ /* .__appMain {
   background-image: url("../assets/imgs/bg.png");
- }
+  background-attachment: fixed;
+ } */

@@ -9,4 +9,7 @@
 
 body {
   background-color: #1a1a1a;
+  background-image: url("./assets/imgs/bg.png");
+  background-size: cover;
+  background-attachment: fixed;
 }

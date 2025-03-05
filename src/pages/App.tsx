@@ -12,8 +12,6 @@ function App({children, className}: appProps) {
     <main className={`
       __appMain
       w-full
-      min-h-screen
-      bg-dark-900
       text-light-50
       ${className || ""}
       `}>

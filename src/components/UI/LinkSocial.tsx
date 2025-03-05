@@ -3,7 +3,7 @@ import { LinkSocialProps } from "../../types/links";
 export default function LinkSocial({icon, title, className, link}: LinkSocialProps){
   return (
     <a href={link} className={`
-    flex gap-3 items-center
+    flex gap-3 items-center backdrop-blur-sm
     ${className || ""}`
     }>
       <p className="text-primary-500">{icon}</p>

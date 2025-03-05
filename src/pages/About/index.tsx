@@ -76,31 +76,31 @@ function Contacts() {
               title="GitHub"
               link="https://github.com/felipealvx"
               icon={<FontAwesomeIcon icon={faGithubSquare} size="2x"/>}
-              className="__link"
+              className="__link p-2 border rounded-md border-light-400 "
             />
             <LinkSocial 
               title="LinkedIn"
               link="https://www.linkedin.com/in/felipealvx/"
               icon={<FontAwesomeIcon icon={faLinkedin} size="2x"/>}
-              className="__link"
+              className="__link p-2 border rounded-md border-light-400 "
             />
             <LinkSocial 
               title="Instagram"
               link="https://instagram.com/ofelipalves"
               icon={<FontAwesomeIcon icon={faInstagramSquare} size="2x"/>}
-              className="__link"
+              className="__link p-2 border rounded-md border-light-400"
             />
             <LinkSocial 
               title="Dribbble"
               link="https://dribbble.com/Alvxx"
               icon={<FontAwesomeIcon icon={faDribbbleSquare} size="2x"/>}
-              className="__link"
+              className="__link p-2 border rounded-md border-light-400"
             />
             <LinkSocial 
               title="DeviantArt"
               link="https://www.deviantart.com/felipealvx"
               icon={<FontAwesomeIcon icon={faDeviantart} size="2x"/>}
-              className="__link"
+              className="__link p-2 border rounded-md border-light-400"
             />
           </div>
         </div>

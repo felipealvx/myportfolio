@@ -17,7 +17,7 @@ function Home() {
           title="Felipe Alves da Silva"
           subtitle="Desenvolvedor Mobile & Web Front-End"
           text={"Utilizo tecnologias como React Native, React, Node, Swift Typescript, Javascript e curto muito UI-UX."}>
-            <div className="flex flex-wrap gap-6 __containerLinks">
+            <div className="flex flex-wrap gap-6 __containerLinks ">
               <LinkSocial 
                 title="Github" 
                 icon={<FontAwesomeIcon icon={faGithubSquare} size="2x"/>} 
