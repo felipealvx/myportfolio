@@ -13,3 +13,13 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1a1a1a #eb5e28;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0px;
+}
